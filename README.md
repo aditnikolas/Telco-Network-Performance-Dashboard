@@ -31,22 +31,15 @@ This dashboard was developed to answer several key analytical questions:
 ---
 
 ## 📊 Dashboard Preview
-
-> Dashboard screenshots will be added after the final dashboard design is completed.
-
-<!--
-Example:
-
-![Dashboard Overview](images/1.png)
+[Dashboard Overview](images/1.png)
 
 Additional views:
 
-![Data Parameter Highlight](images/2.png)
+[Data Parameter Highlight](images/2.png)
 
-![Voice Parameter](images/3.png)
+[Voice Parameter](images/3.png)
 
-![Signal Parameter](images/4.png)
--->
+[Signal Parameter](images/4.png)
 
 ---
 
@@ -54,38 +47,12 @@ Additional views:
 
 The dashboard evaluates several network performance indicators across data, radio, and voice services.
 
-### Data Performance
+#### Data Performance, Download Speed, Upload Speed, Round Trip Time (RTT) / Latency
+#### 5G NR: SS-RSRP, SS-RSRQ, SS-SINR
+#### 4G LTE: RSRP, RSRQ, SINR
+#### Voice Call Performance: Success Call Rate, Blocked Call Rate, Dropped Call Rate, Mean Opinion Score (MOS), Call Setup Time (CST)
 
-- Download Speed
-- Upload Speed
-- Round Trip Time (RTT) / Latency
-
-### Radio Signal Performance
-
-#### 5G NR
-
-- SS-RSRP
-- SS-RSRQ
-- SS-SINR
-
-#### 4G LTE
-
-- RSRP
-- RSRQ
-- SINR
-
-### Voice Call Performance
-
-- Success Call Rate
-- Blocked Call Rate
-- Dropped Call Rate
-- Mean Opinion Score (MOS)
-- Call Setup Time (CST)
-
-The KPI values are classified into several performance categories:
-
-`Very Good` | `Good` | `Fair` | `Bad`
-
+The KPI values are classified into several performance categories: `Very Good` | `Good` | `Fair` | `Bad`
 These categories are used throughout the dashboard for visualization, conditional formatting, and dynamic analytical narratives.
 
 ---
@@ -230,10 +197,7 @@ The dashboard uses a Power BI data model designed to support filtering and analy
     
 A screenshot of the final Power BI data model will be added to this section.
 
-<!--
 ![Power BI Data Model](images/5.png)
--->
-
 ---
 
 # 🧮 DAX Implementation
