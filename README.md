@@ -31,15 +31,15 @@ This dashboard was developed to answer several key analytical questions:
 ---
 
 ## 📊 Dashboard Preview
-[Dashboard Overview](images/1.png)
+![Dashboard Overview](images/1.png)
 
 Additional views:
 
-[Data Parameter Highlight](images/2.png)
+![Data Parameter Highlight](images/2.png)
 
-[Voice Parameter](images/3.png)
+![Voice Parameter](images/3.png)
 
-[Signal Parameter](images/4.png)
+![Signal Parameter](images/4.png)
 
 ---
 
@@ -194,8 +194,6 @@ The dashboard uses a Power BI data model designed to support filtering and analy
 - Measurement Area
 - City / Regency
 - Mobile Operator
-    
-A screenshot of the final Power BI data model will be added to this section.
 
 ![Power BI Data Model](images/5.png)
 ---
