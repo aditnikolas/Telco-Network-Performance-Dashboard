@@ -1,6 +1,6 @@
 # 📡 Telecommunication Network Performance Dashboard
 
-> A Power BI dashboard for analyzing mobile network performance based on Drive Test and User Experience measurement data.
+**A Power BI dashboard for analyzing mobile network performance based on Drive Test and User Experience measurement data.**
 
 ## 📌 Project Overview
 
