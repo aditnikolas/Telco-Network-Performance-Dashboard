@@ -46,11 +46,10 @@ Additional views:
 ## 📈 Key Performance Indicators
 
 The dashboard evaluates several network performance indicators across data, radio, and voice services.
-
-#### Data Performance, Download Speed, Upload Speed, Round Trip Time (RTT) / Latency
-#### 5G NR: SS-RSRP, SS-RSRQ, SS-SINR
-#### 4G LTE: RSRP, RSRQ, SINR
-#### Voice Call Performance: Success Call Rate, Blocked Call Rate, Dropped Call Rate, Mean Opinion Score (MOS), Call Setup Time (CST)
+- Data Performance: Download Speed, Upload Speed, Round Trip Time (RTT) / Latency
+- 5G NR: SS-RSRP, SS-RSRQ, SS-SINR
+- 4G LTE: RSRP, RSRQ, SINR
+- Voice Call Performance: Success Call Rate, Blocked Call Rate, Dropped Call Rate, Mean Opinion Score (MOS), Call Setup Time (CST)
 
 The KPI values are classified into several performance categories: `Very Good` | `Good` | `Fair` | `Bad`
 These categories are used throughout the dashboard for visualization, conditional formatting, and dynamic analytical narratives.
@@ -234,7 +233,7 @@ The KPI category is reused to dynamically control the visualization color.
 RSRP Color =
 SWITCH(
     [RSRP Cat],
-    "Very Good", "#744EC2",
+    "Very Good", "#4EB173",
     "Good",      "#05DDF5",
     "Fair",      "#C1B55C",
     "Bad",       "#D64550",
